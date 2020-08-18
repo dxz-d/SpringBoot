@@ -1,0 +1,4 @@
+# Project exclude paths
+/Shiro/target/
+/shiro-demo01/target/
+/shiro-kuangshen/target/

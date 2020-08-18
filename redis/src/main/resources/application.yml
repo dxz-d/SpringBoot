@@ -29,6 +29,7 @@ spring:
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
+
   redis:
     host: localhost
     #password: redispassword

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bff9761-5c67-494c-a5ea-5cfefc193c29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dac231ad-d538-4a20-b2f0-e8968a701ae5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/dac231ad-d538-4a20-b2f0-e8968a701ae5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/ShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/config/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/poject/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/java/com/diaoxiuze/shiro/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/resources/static/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/main/resources/static/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/src/test/java/com/diaoxiuze/shiro/Module2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/META-INF/module2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/ShiroApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/config/CustomRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/poject/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/com/diaoxiuze/shiro/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/static/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/classes/static/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shiro/target/test-classes/com/diaoxiuze/shiro/Module2ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/configuration/BrowerSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/service/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/java/com/diaoxiuze/security/service/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/static/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/main/resources/templates/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/src/test/java/com/diaoxiuze/security/Module1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/META-INF/module1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/SecurityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/configuration/BrowerSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/controller/SecurityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/service/MyUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/com/diaoxiuze/security/service/UserDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/static/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/classes/templates/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/target/test-classes/com/diaoxiuze/security/Module1ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/Shiro01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/config/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/java/com/kuang/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/templates/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/main/resources/templates/user/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/src/test/java/com/kuang/Shiro01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/META-INF/shiro-demo01.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/Shiro01Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/config/UserRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/controller/MyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/com/kuang/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/templates/user/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/classes/templates/user/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-demo01/target/test-classes/com/kuang/Shiro01ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/java/com/shiro/Quickstart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/java/com/shiro/ShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/java/com/shiro/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/resources/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/src/test/java/com/shiro/ShiroApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/com/shiro/Quickstart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/com/shiro/ShiroApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/com/shiro/controller/MyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/shiro.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-kuangshen/target/test-classes/com/shiro/ShiroApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-kuangshen/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="193" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\java\springcloud" />
+        <option value="D:\java\springcloud\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fclvP1f6lUDqWOVP0p3AtAg5FA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml&#10;XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis/src/main/resources" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.diaoxiuze.module2" />
+      <recent name="com.diaoxiuze.module1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\springcloud\redis\src\main\resources" />
+      <recent name="D:\java\springcloud\redis\src\main\resources\mapper" />
+      <recent name="D:\java\springcloud\shiro-demo01\src\main\resources\templates" />
+      <recent name="D:\java\springcloud\shiro-kuangshen\src\main\resources" />
+      <recent name="D:\java\springcloud\SpringSecurity\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\springcloud\redis\src\main\resources" />
+      <recent name="D:\java\springcloud\shiro-demo01\src\main\resources\mapper" />
+      <recent name="D:\java\springcloud\Shiro\src\main\resources\static" />
+      <recent name="D:\java\springcloud\SpringSecurity\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisApplicationTests.test">
+    <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiro.Quickstart" />
+      <module name="shiro-kuangshen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro01Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.Shiro01Application" />
+      <module name="shiro-demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro01ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.Shiro01ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="module1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.diaoxiuze.security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="module2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.diaoxiuze.shiro.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shiro01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-demo01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.Shiro01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-kuangshen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shiro.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisApplicationTests.test" />
+        <item itemvalue="Application.Shiro01Application" />
+        <item itemvalue="JUnit.Shiro01ApplicationTests.contextLoads" />
+        <item itemvalue="Application.Quickstart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.14989178" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\12057\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bff9761-5c67-494c-a5ea-5cfefc193c29" name="Default Changelist" comment="" />
+      <created>1596525491209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596525491209</updated>
+      <workItem from="1596525494682" duration="9738000" />
+      <workItem from="1596535380866" duration="3046000" />
+      <workItem from="1596589960489" duration="5684000" />
+      <workItem from="1596613764947" duration="11498000" />
+      <workItem from="1596679241302" duration="5716000" />
+      <workItem from="1596767438363" duration="1604000" />
+      <workItem from="1596772843173" duration="5726000" />
+      <workItem from="1596784989437" duration="6203000" />
+      <workItem from="1596791680484" duration="9709000" />
+      <workItem from="1596813441567" duration="4172000" />
+      <workItem from="1596846460980" duration="4704000" />
+      <workItem from="1597022023107" duration="4027000" />
+      <workItem from="1597042403499" duration="11078000" />
+      <workItem from="1597108093626" duration="3088000" />
+      <workItem from="1597198970130" duration="14000" />
+      <workItem from="1597733001722" duration="2098000" />
+    </task>
+    <task id="LOCAL-00001" summary="springboot整合redis">
+      <created>1597050494616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597050494616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot整合redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot整合redis" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1596621711089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596621711089" />
+    <state x="414" y="175" width="1160" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596796704809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1160" height="802" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596796704809" />
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596796121088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596796121088" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1596797738352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596797738352" />
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596528745772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1596528745772" />
+    <state x="619" y="67" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596616870619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="67" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596616870619" />
+    <state x="555" y="112" key="CommitChangelistDialog2" timestamp="1597050489803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597050489803" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596850065407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596850065407" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597043663938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597043663938" />
+    <state x="781" y="436" width="382" height="168" key="Github.CreateGistDialog" timestamp="1596851485031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="436" width="382" height="168" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596851485031" />
+    <state x="823" y="413" width="273" height="292" key="Github.ShareDialog" timestamp="1596851674180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="413" width="273" height="292" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596851674180" />
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1597054559418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597054559418" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1597054559418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597054559418" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1597054559418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597054559418" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1597054559418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597054559418" />
+    <state width="1570" height="427" key="GridCell.Tab.1.bottom" timestamp="1596791649697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1570" height="427" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596791649697" />
+    <state width="1570" height="427" key="GridCell.Tab.1.center" timestamp="1596791649697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1570" height="427" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596791649697" />
+    <state width="1570" height="427" key="GridCell.Tab.1.left" timestamp="1596791649697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1570" height="427" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596791649697" />
+    <state width="1570" height="427" key="GridCell.Tab.1.right" timestamp="1596791649697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1570" height="427" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596791649697" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1597042821919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597042821919" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1597198970216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597198970216" />
+    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596680650211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1596680650211" />
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1596608971577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596608971577" />
+    <state x="669" y="333" key="new project wizard" timestamp="1597040404321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="333" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597040404321" />
+    <state x="702" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1596798376519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596798376519" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596798324480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596798324480" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springcloud$Module1Application.ic" NAME="Module1Application Coverage Results" MODIFIED="1596590244844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
