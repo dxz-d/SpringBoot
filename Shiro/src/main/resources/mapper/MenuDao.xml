@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiro.dao.MenuDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.shiro.entity.Menu">
+        <result column="id" property="id" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_time" property="updateTime" />
+        <result column="parent_id" property="parentId" />
+        <result column="code" property="code" />
+        <result column="name" property="name" />
+        <result column="type" property="type" />
+        <result column="permission" property="permission" />
+        <result column="icon" property="icon" />
+        <result column="path" property="path" />
+        <result column="component" property="component" />
+        <result column="sort" property="sort" />
+        <result column="forbidden" property="forbidden" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        create_by,
+        create_time,
+        update_by,
+        update_time,
+        parent_id, code, name, type, permission, icon, path, component, sort, forbidden
+    </sql>
+
+    <!--根据ID查询菜单-->
+    <select id="getMenuById" resultType="java.util.Map">
+        SELECT
+            a.id, a.parent_id AS parentId, a.code, a.name, a.type, a.permission, a.hidden,
+            a.icon, a.path, a.component, a.sort, a.forbidden, b.name AS pName
+        FROM sys_menu a
+        LEFT JOIN  sys_menu b ON a.parent_id = b.id
+        WHERE
+            a.id = #{id}
+    </select>
+
+    <!-- 查询用户拥有的菜单权限 -->
+    <select id="findMenuByUser" resultType="com.shiro.entity.Menu">
+        SELECT
+            DISTINCT sm.id, sm.code, sm.name, sm.type, sm.permission, sm.component, sm.icon, sm.path, sm.sort, sm.hidden, sm.parent_id AS parentId
+        FROM
+            sys_menu sm
+        INNER join sys_role_menu srm on sm.id = srm.menu_id
+        INNER join sys_user_role sur on sur.role_id = srm.role_id
+        INNER join sys_user su on su.id = sur.user_id
+        <where>
+            1 = 1
+            AND su.id = #{id}
+            AND sm.type = '0'
+            AND sm.forbidden = '0'
+        </where>
+    </select>
+
+    <!-- 查询用户权限 -->
+    <select id="findPremByUser" resultType="java.lang.String">
+        SELECT
+            DISTINCT sm.permission
+        FROM
+        sys_menu sm
+        INNER join sys_role_menu srm on sm.id = srm.menu_id
+        INNER join sys_user_role sur on sur.role_id = srm.role_id
+        INNER join sys_user su on su.id = sur.user_id
+        <where>
+            1 = 1
+            AND su.id = #{id}
+            AND sm.type = '1'
+            AND sm.forbidden = '0'
+        </where>
+    </select>
+
+
+</mapper>

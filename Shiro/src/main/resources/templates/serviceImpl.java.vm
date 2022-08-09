@@ -1,0 +1,61 @@
+package ${package.ServiceImpl};
+
+import ${package.Entity}.${entity};
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.stereotype.Service;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.springframework.transaction.annotation.Transactional;
+import com.shiro.result.ResResult;
+
+/**
+ *
+ * @description $!{table.comment} 服务实现类
+ * @author ${author}
+ * @since ${date}
+ */
+@Service
+@Transactional(rollbackFor = Exception.class)
+#if(${kotlin})
+open class ${table.serviceImplName} : ${superServiceImplClass}<${table.mapperName}, ${entity}>(), ${table.serviceName} {
+
+    }
+#else
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}>implements ${table.serviceName} {
+
+
+    @Override
+    public ResResult save${entity}(${entity} ${table.entityPath}){
+        return null;
+    }
+
+
+    @Override
+    public ResResult update${entity}(${entity} ${table.entityPath}){
+        return null;
+    }
+
+    @Override
+    public ResResult deleteById(String id){
+        return null;
+    }
+
+    @Override
+    public ResResult deleteBatch(String ids){
+        return null;
+    }
+
+
+    @Override
+    public ResResult get${entity}ById(String id){
+        return null;
+    }
+
+
+    @Override
+    public ResResult find${entity}Page(${entity} ${table.entityPath}){
+        return null;
+    }
+}
+#end

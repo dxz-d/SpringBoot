@@ -1,0 +1,33 @@
+package ${package.Service};
+
+import ${package.Entity}.${entity};
+import ${superServiceClassPackage};
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.shiro.result.ResResult;
+
+/**
+ *
+ * $!{table.comment} 服务类
+ *
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+#if(${kotlin})
+interface ${table.serviceName} : ${superServiceClass}<${entity}>
+#else
+public interface ${table.serviceName} extends ${superServiceClass}<${entity}> {
+
+    ResResult save${entity}(${entity} ${table.entityPath});
+
+    ResResult update${entity}(${entity} ${table.entityPath});
+
+    ResResult deleteById(String id);
+
+    ResResult deleteBatch(String ids);
+
+    ResResult get${entity}ById(String id);
+
+    ResResult find${entity}Page(${entity} ${table.entityPath});
+}
+#end

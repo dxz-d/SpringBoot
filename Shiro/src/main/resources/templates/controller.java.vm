@@ -1,0 +1,108 @@
+package ${package.Controller};
+
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import com.github.xiaoymin.knife4j.annotations.DynamicParameter;
+import com.github.xiaoymin.knife4j.annotations.DynamicParameters;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.alibaba.fastjson.JSONObject;
+import com.shiro.result.ResResult;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+    #if(${restControllerStyle})
+    #else
+    import org.springframework.stereotype.Controller;
+    #end
+    #if(${superControllerClassPackage})
+    import ${superControllerClassPackage};
+    #end
+import ${package.Entity}.${entity};
+import ${package.Service}.${table.serviceName};
+
+
+/**
+ * @description $!{cfg.description}
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+#if(${restControllerStyle})
+@RestController
+#else
+@Controller
+#end
+@RequestMapping("${cfg.moduleName}")
+#if(${swagger2})
+@Api(tags = "${entity}Api(${table.comment})", value = "${table.comment}")
+#end
+#if(${kotlin})
+class ${table.controllerName}#if(${superControllerClass}) : ${superControllerClass}()#end
+
+#else
+#if(${superControllerClass})
+public class ${table.controllerName} extends ${superControllerClass} {
+#else
+public class ${table.controllerName} {
+#end
+
+    @Autowired
+    private ${table.serviceName} ${table.entityPath}Service;
+
+    @PostMapping(value = "/${table.entityPath}s")
+    @ApiOperation(value = "新增", notes = "接口描述")
+    @DynamicParameters(name = "save${entity}", properties = {
+        #foreach($field in ${table.fields})
+            @DynamicParameter(name = "${field.propertyName}", value = "${field.comment}", example = "", required = false, dataTypeClass = ${field.propertyType}.class),
+        #end
+    })
+    public ResResult save${entity}(@RequestBody JSONObject param){
+        return this.${table.entityPath}Service.save${entity}(param.toJavaObject(${entity}.class));
+    }
+
+    @PutMapping(value = "/${table.entityPath}s")
+    @ApiOperation(value = "更新", notes = "接口描述")
+    @DynamicParameters(name = "update${entity}", properties = {
+    #foreach($field in ${table.fields})
+            @DynamicParameter(name = "${field.propertyName}", value = "${field.comment}", example = "", required = false, dataTypeClass = ${field.propertyType}.class),
+    #end
+    })
+    public ResResult update${entity}(@RequestBody JSONObject param){
+        return this.${table.entityPath}Service.update${entity}(param.toJavaObject(${entity}.class));
+    }
+
+    @DeleteMapping(value = "/${table.entityPath}s/{id}")
+    @ApiOperation(value = "删除(单条)", notes = "接口描述")
+    public ResResult delete${entity}ById(@PathVariable("id") String id){
+        return this.${table.entityPath}Service.deleteById(id);
+    }
+
+    @PostMapping(value = "/${table.entityPath}s/batch")
+    @ApiOperation(value = "删除(批量)", notes = "接口描述")
+    @DynamicParameters(name = "delete${entity}ByIds", properties = {
+            @DynamicParameter(name = "ids", value = "id字符串", example = "id1,id2...", required = false, dataTypeClass = String.class),
+    })
+    public ResResult delete${entity}ByIds(@RequestBody JSONObject param){
+        return this.${table.entityPath}Service.deleteBatch(param.getString("ids"));
+    }
+
+    @GetMapping(value = "/${table.entityPath}s/{id}")
+    @ApiOperation(value = "查询(单条)", notes = "接口描述")
+    public ResResult get${entity}(@PathVariable("id") String id){
+        return this.${table.entityPath}Service.get${entity}ById(id);
+    }
+
+    @PostMapping(value = "/${table.entityPath}s/page")
+    @ApiOperation(value = "分页查询", notes = "接口描述")
+    @DynamicParameters(name = "find${entity}Page", properties = {
+    #foreach($field in ${table.fields})
+            @DynamicParameter(name = "${field.propertyName}", value = "${field.comment}", example = "", required = false, dataTypeClass = ${field.propertyType}.class),
+    #end
+            @DynamicParameter(name = "page", value = "分页对象", example = "{}", required = true, dataTypeClass = Page.class),
+    })
+    public ResResult find${entity}Page(@RequestBody JSONObject param){
+        return this.${table.entityPath}Service.find${entity}Page(param.toJavaObject(${entity}.class));
+    }
+}
+
+#end
