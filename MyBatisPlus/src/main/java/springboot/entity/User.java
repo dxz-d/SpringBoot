@@ -14,7 +14,7 @@ import java.sql.Date;
  * @author: dxz
  */
 @Data
-@TableName("user")
+@TableName("t_user")
 public class User {
 
     @TableId
@@ -23,11 +23,8 @@ public class User {
     @TableField("name")
     private String name;
 
-    @TableField("age")
-    private Integer age;
-
-    @TableField("email")
-    private String email;
+    @TableField("password")
+    private String password;
 
     @TableField("create_time")
     private Date createTime;
@@ -36,8 +33,10 @@ public class User {
     private Date updateTime;
 
     @TableLogic
-    @TableField("flag")
-    private Integer flag;
+    @TableField("deleted")
+    private Integer deleted;
 
+    @TableField("user_type")
+    private Integer userType;
 }
 
