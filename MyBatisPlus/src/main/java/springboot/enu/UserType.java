@@ -25,7 +25,6 @@ public enum UserType {
 
     /**
      * 是否有权限
-     *
      * @param userTypes
      * @param typeOfUser
      * @param logical
@@ -34,7 +33,6 @@ public enum UserType {
     public static boolean hasPermission(UserType[] userTypes, Integer typeOfUser, Logical logical) {
         Objects.requireNonNull(userTypes);
         Objects.requireNonNull(logical);
-
         // 1.1 要求单个角色权限，且当前用户刚好是这个角色
         if (userTypes.length == 1 && userTypes[0].getValue().equals(typeOfUser)) {
             return true;

@@ -67,4 +67,9 @@ public class UserController {
         return Result.success("if you see this, you are logged in.");
     }
 
+    @PermissionRequired(userType = {UserType.ADMIN,UserType.TEACHER}, logical = Logical.OR)
+    @GetMapping("/needPermission")
+    public Result<String> needPermission() {
+        return Result.success("if you see this, you has the permission.");
+    }
 }
