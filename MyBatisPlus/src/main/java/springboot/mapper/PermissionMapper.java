@@ -1,8 +1,8 @@
 package springboot.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import springboot.entity.User;
 import org.springframework.stereotype.Repository;
+import springboot.entity.Permission;
 
 /**
  * Description: TODO
@@ -10,6 +10,6 @@ import org.springframework.stereotype.Repository;
  * @author: dxz
  */
 @Repository
-public interface UserMapper extends BaseMapper<User> {
+public interface PermissionMapper extends BaseMapper<Permission> {
 
 }

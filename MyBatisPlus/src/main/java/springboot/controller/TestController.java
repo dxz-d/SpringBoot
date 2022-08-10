@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import springboot.annotations.RequiresPermission;
 import springboot.entity.User;
 import springboot.mapper.UserMapper;
 
@@ -24,6 +25,7 @@ public class TestController {
     @Resource
     private UserMapper userMapper;
 
+    @RequiresPermission()
     @GetMapping("/select")
     public void testSelect() {
         System.out.println("--------------------");
